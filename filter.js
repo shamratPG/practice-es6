@@ -13,4 +13,7 @@ const students = [
 ]
 
 const goodStudents = students.filter(s => s.goodGrades == true)
+const goodStudent = students.find(s => s.goodGrades == true)
 console.log(goodStudents);
+console.log(goodStudent);
+
